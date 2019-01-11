@@ -28,14 +28,14 @@ setup(
             '': ['*.conf'],
     },
     install_requires=[
-        'botocore==1.8.0',
+        'botocore==1.8',
         # SO-SIH-159 - 07/18/2018 - Version and dependencies fix
         # Locking botocore, pycurl version and moving dependencies from requirements
         'tornado==5.0.1',
         'pycurl==7.43.0.1',
-        'tornado_botocore==1.3.0',
-        'requests_unixsocket==0.1.5',
-        'thumbor==6.5.1',
+        'tornado_botocore==1.3.2',
+        'requests_unixsocket>=0.1.5',
+        'thumbor>=6.5.2',
         'thumbor-plugins==0.2.0',
         # SO-SIH-155 - 07/18/2018 - Rekognition integration
         # Adding Rekognition
